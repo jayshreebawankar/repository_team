@@ -6,5 +6,22 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "name": "repository_team",
+  "description": "'we are working in a team'",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayshreebawankar/repository_team.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayshreebawankar/repository_team/issues"
+  },
+  "homepage": "https://github.com/jayshreebawankar/repository_team#readme"
 }
