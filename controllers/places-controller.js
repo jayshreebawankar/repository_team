@@ -54,13 +54,12 @@ const getPlaceByUserId = (req, res, next) =>{
     const place = DUMMY_PLACES.find(P =>{
         return P.creator == userId;    
     });
-
     if (!place) {
         return next(
             new HttpError('Could not find a a place for a provided id.', 404)
         );
     }
-    res.json({ place });
+    res.json({place});
 };
 
 const createPlace = (req, res, next) => {
